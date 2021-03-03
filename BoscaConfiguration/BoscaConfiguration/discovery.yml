@@ -1,0 +1,17 @@
+eureka:
+    client:
+        fetch-registry: false
+        register-with-eureka: false
+    server:
+        renewal-percent-threshold: 0.49
+
+server:
+    port: 8010
+
+spring:
+    application:
+        name: discovery
+    security:
+        user:
+            name: ${myEureka.username}
+            password: ${myEureka.password}

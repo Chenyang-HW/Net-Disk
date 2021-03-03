@@ -1,0 +1,3 @@
+# BoscaConfiguration
+
+It is the configuration repository for Bosca. There is no need to do with the project for it has been push to GitHub. Due to there is some private information in config file, such as token for AWS, the repository on GitHub has been set private. These files are used to show the content in the repository on GitHub. If you want to check the repository or make some change to it, please contact with me.

@@ -1,0 +1,14 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Spring template files
+HELP.md
+mvnw
+mvnw.cmd
+.mvn
+
+# Maven generated files
+target

@@ -1,0 +1,21 @@
+api:
+    login:
+        url:
+            path: /user-ws/user/login
+    registration:
+        url:
+            path: /user-ws/users
+authorization:
+    token:
+        header:
+            name: Authorization
+            prefix: Bearer
+server:
+    port: 8011
+spring:
+    application:
+        name: gateway
+    devtools:
+        restart:
+            enabled: false
+

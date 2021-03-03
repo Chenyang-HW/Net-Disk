@@ -1,0 +1,28 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${myEureka.username}:${myEureka.password}@localhost:8010/eureka
+
+gateway:
+  ip: 172.31.5.100
+
+myEureka:
+  password: PUBT!6i4Kf3tdU-B
+  username: bosca
+
+spring:
+  datasource:
+    password: sOtB3HWQbxKchdxkcQqt
+    url: jdbc:mysql://db-bosca.cx6nunubyuw6.eu-west-1.rds.amazonaws.com:3306/bosca?serverTimezone=UTC
+    username: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+  rabbitmq:
+    host: localhost
+    password: h4pHR*aAYhD6_z99oGkv
+    port: 5672
+    username: bosca
+token:
+  expiration_time: 86400000
+  secret: KJ9wDcPKQFq.44DH
